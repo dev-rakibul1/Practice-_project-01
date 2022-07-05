@@ -1,0 +1,185 @@
+/* Google fonts calling */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+/* Reset styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.flexible-container {
+  display: flex;
+}
+.header .box {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.section-gap {
+  padding-top: 100px;
+}
+
+.sp {
+  padding: 50px;
+}
+/* Header styling */
+
+.header .box img {
+  max-width: 100%;
+}
+
+.box h1 {
+  font-size: 34px;
+  font-weight: 900;
+  color: #575757;
+}
+
+.box h1 span {
+  color: #fba24f;
+}
+
+.box p {
+  color: #828282;
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 27px;
+}
+
+.box a.order-food {
+  text-decoration: none;
+  padding: 10px 24px;
+  background: #fba24f;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 400;
+  background: linear-gradient(45deg, orange, tomato);
+}
+
+/* About section */
+.about-section {
+  background-image: url("./images/shapes/7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.gird {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  grid-gap: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+.gird p {
+  margin-bottom: 5rem;
+}
+
+h2 {
+  color: #707070;
+  font-size: 25px;
+}
+
+/* recipies */
+
+.recipies .box {
+  /* padding-right: 50px; */
+}
+
+.section-title {
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title h2 {
+  margin-bottom: 13px;
+}
+
+.section-title p {
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.box-shadow {
+  display: flex;
+  padding: 10px;
+}
+
+.box-shadow .box {
+  width: 45%;
+  padding: 2.5%;
+}
+
+.box .article {
+  box-shadow: 0px 1px 26px #00000036;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* subscriber */
+
+.youtube,
+.instragram,
+.dribble {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube small,
+.instragram small,
+.dribble small {
+  font-size: 10px;
+}
+
+.subscriber-width {
+  background: #fff;
+  padding: 50px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 26px #00000036;
+}
+
+/* footer */
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer h2 {
+  color: #5b5b5b;
+}
+
+.footer p {
+  color: #5b5b5b;
+  margin-top: 20px;
+}
+
+.footer h2 span {
+  color: orange;
+}
